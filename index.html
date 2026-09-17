@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>オーダーノートのつくり方</title>
+<meta name="robots" content="noindex,nofollow">
+
+<style>
+  :root{
+    --bg:#000;
+    --gold:#d8c08a;
+    --ink:#cfc7bb;
+    --muted:#8d857a;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Hiragino Mincho ProN","Yu Mincho","YuMincho","Noto Serif JP",serif;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:1000px;margin:0 auto;padding:0 16px;}
+  img{max-width:100%;height:auto;display:block;margin:0 auto;}
+
+  .sp{display:none;}
+  @media (max-width:767px){
+    .pc{display:none;}
+    .sp{display:block;}
+  }
+
+  .headcopy{padding:56px 0 8px;}
+  @media (max-width:767px){ .headcopy{padding:40px 0 4px;} }
+
+  .note{padding:8px 0 40px;}
+  .note img{width:100%;max-width:560px;}
+  @media (max-width:767px){ .note img{max-width:100%;} }
+
+  .rec{padding:8px 0 28px;}
+  .rec img{width:100%;max-width:820px;}
+  .rec .sp img + img{margin-top:14px;}
+
+  .cta{padding:8px 0 44px;}
+  .cta a{display:block;}
+  .cta img{width:100%;max-width:560px;transition:opacity .2s;}
+  .cta a:hover img{opacity:.85;}
+
+  /* ファーストビュー内のLINE登録（2026/9/17 山口さん指示） */
+  .cta-top{padding:2px 0 26px;}
+  .cta-top img{max-width:460px;}
+  @media (max-width:767px){
+    .cta-top{padding:2px 0 20px;}
+    .cta-top img{max-width:88%;}
+  }
+
+  .lead{
+    text-align:center;
+    font-size:16px;
+    line-height:2.1;
+    letter-spacing:.06em;
+    color:var(--ink);
+    padding:4px 0 8px;
+  }
+  @media (max-width:767px){ .lead{font-size:15px;line-height:2.0;} }
+
+  .disclaimer{
+    max-width:760px;margin:0 auto;
+    text-align:center;
+    font-family:"Hiragino Sans","Noto Sans JP",sans-serif;
+    font-size:13px;line-height:2.0;letter-spacing:.03em;
+    color:var(--muted);
+    padding:24px 0 8px;
+    border-top:1px solid rgba(216,192,138,.18);
+  }
+
+  footer{
+    padding:26px 0 56px;
+    text-align:center;
+    font-family:"Hiragino Sans","Noto Sans JP",sans-serif;
+    font-size:12px;letter-spacing:.04em;
+  }
+  footer a{
+    color:var(--muted);text-decoration:none;
+    display:inline-block;margin:0 10px 10px;
+  }
+  footer a:hover{color:var(--gold);text-decoration:underline;}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <!-- ヘッドコピー -->
+  <div class="headcopy">
+    <img class="pc" src="./assets/hc_pc.png" width="1596" height="341" alt="願望を書く前に、やることがある。オーダーノートのつくり方">
+    <img class="sp" src="./assets/hc_sp.png" width="819" height="643" alt="願望を書く前に、やることがある。オーダーノートのつくり方">
+  </div>
+
+  <!-- ファーストビュー内のLINE登録（2026/9/17 山口さん指示：PCでもFVに必ず入れる） -->
+  <div class="cta cta-top">
+    <a href="https://s.lmes.jp/landing-qr/2000413683-9n7nxLdw?uLand=g8Ha4h" rel="noopener">
+      <img src="./assets/line_btn.png" width="820" height="175" alt="LINEに登録する">
+    </a>
+  </div>
+
+  <!-- ノートのビジュアル -->
+  <div class="note">
+    <img class="pc" src="./assets/note_pc.png" width="667" height="636" alt="">
+    <img class="sp" src="./assets/note_sp.png" width="822" height="785" alt="">
+  </div>
+
+  <!-- オファーの説明 -->
+  <div class="rec">
+    <img class="pc" src="./assets/rec_pc.png" width="1202" height="322" alt="そこで、オーダーノートの全てを動画に収録しました。その動画をLINEで配信します">
+    <div class="sp">
+      <img src="./assets/rec_sp1.png" width="915" height="379" alt="そこで、オーダーノートの全てを動画に収録しました。">
+      <img src="./assets/rec_sp2.png" width="918" height="59" alt="その動画をLINEで配信します">
+    </div>
+  </div>
+
+  <p class="lead">
+    オーダーノートにご興味がある方、<br>
+    チャレンジしてみたい方は、<br>
+    こちらのLINEにご登録ください。
+  </p>
+
+  <!-- LINE登録（プロフィール流入用 uLand=g8Ha4h） -->
+  <div class="cta">
+    <a href="https://s.lmes.jp/landing-qr/2000413683-9n7nxLdw?uLand=g8Ha4h" rel="noopener">
+      <img src="./assets/line_btn.png" width="820" height="175" alt="LINEに登録する">
+    </a>
+  </div>
+
+  <p class="disclaimer">
+    本ページで紹介している内容は、開発者個人の経験に基づくものです。<br>
+    実践による成果には個人差があり、特定の結果を保証するものではありません。
+  </p>
+
+  <footer>
+    <a href="https://www.takaramap.com/vortex/" target="_blank" rel="noopener">会社概要</a>
+    <a href="https://www.takaramap.com/vortex/law-seminar/" target="_blank" rel="noopener">特定商取引法に基づく表記</a>
+    <a href="https://www.takaramap.com/vortex/privacy-policy/" target="_blank" rel="noopener">プライバシーポリシー</a>
+    <a href="https://www.takaramap.com/vortex/cancel-policy/" target="_blank" rel="noopener">キャンセルポリシー</a>
+  </footer>
+
+</div>
+
+</body>
+</html>
